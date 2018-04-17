@@ -15,7 +15,8 @@ public class SignatureMaker {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+     gui mainGui = new gui();
+        mainGui.setVisible(true);
     }
     
 }
